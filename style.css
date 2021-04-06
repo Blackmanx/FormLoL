@@ -1,0 +1,169 @@
+body{
+    background: url('bg.jpeg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: auto;
+    font-family: monospace;
+    color: white;
+    font-size: 16px;
+    background-color: black;
+    min-height: 100%;
+	min-width: 1024px;
+}
+
+a{
+    text-decoration-color: pink;
+    text-decoration: none;
+    color: pink;
+}
+/* Adding old web browsers support*/
+#imgbody{
+			min-height: 100%;
+			min-width: 1024px;
+            width: 100%;
+			height: auto;
+			position: fixed;
+			top: 0;
+            left: 0;
+            z-index: -1;
+}
+@media screen and (max-width: 1024px){
+    #imgbody {
+        left: 50%;
+        margin-left: -512px; }
+}
+h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    display:inline-block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+#description{
+    text-align: center;
+    color: white;
+}
+#adc{
+    left: 40.2%;
+    position: relative;
+}
+#jungle{
+    position: relative;
+    left: 35%;
+    
+}
+#submit{
+    margin-top: 2%;
+}
+
+#number{
+    width: 20%;
+    height: 20px;
+    margin-left: 39%;
+   
+}
+
+#titlebox{
+    background-color: rgba(20, 114, 138, 0.9);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#comments{
+    margin-top: 1%;
+    padding: 1%;
+    border-color: 1px 1px 1px 1px cyan;
+    box-shadow: 1px 1px 1px 1px black;
+    background-color: rgba(40, 32, 96, 0.9);
+    margin-left: 33%;
+    width: 33%;
+    height: 20%;
+    color: white;
+}
+#dropdown{
+    display: inline-block;
+}
+
+#number-label{
+  font-size: 0px;
+}
+
+#name-label{
+  font-size: 0px;
+  
+}
+#email-label{
+  font-size: 0px;
+}
+
+
+.box{
+    width: 75%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    background-color:rgba(27, 43, 71, 0.95);
+    margin-top: 4%;
+    padding: 2%;
+    
+}
+
+.submit{
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: 0.3s;
+    margin-left: 42%;
+    width: 10%;
+    height: 4%;
+    align-content: center;
+    align-items: center;
+}
+
+.submit:hover {
+    background-color: gold;
+    color: rgb(0, 0, 0);
+  }
+.frhr{
+width: 90%;
+text-align:center;
+margin-top: 3%;
+}
+.frtext{
+    text-align: center;
+}
+.fieldbox{
+    width: 40%;
+    height: 30px;
+    float: center;
+    margin-left: 30%;
+    text-align: center;
+}
+
+.checkbox{
+    margin-top: 1%;
+}
+
+.row1{
+position: relative;
+left: 35%;
+}
+.row2{
+position: relative;
+left: 43%;
+}
+.rdfr{
+    position: relative;
+    left: 40%;
+}

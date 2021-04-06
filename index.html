@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Survey Form</title>
+</head>
+
+<body>
+    <!-- img for old browsers support-->
+    <img src="http://mumumaki.com/wp-content/uploads/2018/07/League-Of-Legends-Wallpaper.jpg" id="imgbody">
+    <div id=titlebox>
+    <h1 id="title">A League of Legends Form</h1>
+    </div>
+    <p id="description">A small survey for the community</p>
+    <div class="box">
+        <form id="survey-form">
+            <fieldset>
+            <legend><h2>Answer the following questions within the fields:</h2></legend>
+            <p class="frtext">Summoner Name:</p>
+                <label id="name-label">-<input class="fieldbox" id="name" placeholder="Name" type="text" required></label>
+            
+            <br><hr class="frhr">
+            
+            <p class="frtext">Email:</p>
+                <label id="email-label">-<input class="fieldbox" id="email" placeholder="Introduce your email." type="email" required></label>
+            
+            <br><hr class="frhr">
+            
+            <p class="frtext">Age:</p>
+                <label id="number-label">-<input max="120" min="1" class="fieldbox" id="number" placeholder="Introduce your age." type="number"></label>
+            
+            <br><hr class="frhr">
+
+            <p class="frtext">Select your rank within the range: </p>
+            <div align="center"><select id="dropdown">
+                    <option value="1">&#60; Silver V</option>
+                    <option value="2">Silver V - Silver I</option>
+                    <option value="3">Gold V - Gold I</option>
+                    <option value="4">Platinum V - Platinum I</option>
+                    <option value="5">Diamond V - Diamond I</option>
+                    <option value="6">&#62; Diamond I</option>
+                    </select></div>
+
+            <br><hr class="frhr">
+
+            <p class="frtext">Select your gender:</p>
+                <label class="rdfr"><input checked="checked" name="gender" type="radio" value="male"/> Male</label><br> 
+                <label class="rdfr"><input name="gender" type="radio" value="female" /> Female</label><br>
+                <label class="rdfr"><input name="gender" type="radio" value="other" /> Other</label>
+            
+            <br><hr class="frhr">
+
+            <p class="frtext">Select which roles do you main / you feel comfortable with: </p>
+                <label class="row1"><input class="checkbox" name="chek" type="checkbox" value="Top"/>Top</label>
+                <label class="row2"><input class="checkbox" name="chek" type="checkbox" value="Mid"/>Mid</label><br>
+                <label class="row1"><input class="checkbox" name="chek" type="checkbox" value="Support"/>Support</label>
+                <label class="row2" id="adc"><input class="checkbox" name="chek" type="checkbox" value="ADC"/>ADC</label><br>
+                <label id="jungle"><input class="checkbox" name="chek" type="checkbox" value="Jungle" />Jungle</label><br/>
+            
+            <br><hr class="frhr">
+
+            <p class="frtext">(Optional) Add some comments if you want:</p><br>
+            <textarea id="comments" rows="10" cols="50">Enter your comments here.</textarea>
+            
+            <br><hr class="frhr">
+
+            <label class="row1"><input name="terms" type="checkbox" value="tandc" /> I accept <a href="">terms and conditions.</a> <br />
+            
+        </fieldset>
+        <input type="submit" value="Submit" id="submit" class="submit">
+        </form>
+    
+    </div>
+</body>
+
+</html>
